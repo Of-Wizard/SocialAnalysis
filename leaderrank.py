@@ -3,6 +3,7 @@ import numpy as np
 # from Graph_and_Matrix.Adjacency_matrix import *
 import os
 
+
 def leaderrank(graph):
     """
     节点排序
@@ -42,5 +43,4 @@ def leaderrank(graph):
     LR.pop(0)
     for k in LR.keys():
         LR[k] += avg
-
     return LR
